@@ -295,6 +295,50 @@ result-zone {
 * section:not(:first-child) {
     margin-left: 40px;
 }
+#logo {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 100%;
+}
+
+.search-div {
+    display: flex;
+}
+
+.uk-search-icon {
+    color: #25975A !important;
+}
+
+.filter {
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.filter > *:not(:first-child) {
+    margin-left: 20px;
+}
+
+.search-div {
+    position: relative;
+    background: white;
+}
+
+.search-div div:first-child {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
 
 
 
